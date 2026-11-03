@@ -1,0 +1,17 @@
+# Dependencies (thousands of files that freeze git)
+node_modules/
+*/node_modules/
+venv/
+*/venv/
+__pycache__/
+*/__pycache__/
+
+# Environment secrets
+.env
+*.env
+
+# Build outputs & exports
+dist/
+build/
+*.pdf
+*.png
