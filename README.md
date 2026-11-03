@@ -60,7 +60,7 @@ An enterprise-ready, AI-driven Business Intelligence Copilot that translates nat
 - Node.js 18+
 - MySQL Server running locally or in cloud
 
----
+
 
 ### 2. Backend Setup
 
@@ -96,7 +96,7 @@ An enterprise-ready, AI-driven Business Intelligence Copilot that translates nat
 
    ```Bash
     uvicorn main:app --reload --port 8000
-    
+
 ### 3. Frontend Setup
 
 1. Open a new terminal and navigate to the frontend directory:
@@ -116,6 +116,8 @@ An enterprise-ready, AI-driven Business Intelligence Copilot that translates nat
  
 4. Open http://localhost:5173 in your browser.
 
+---
+
 ### 🔮 Roadmap (Version 2.0)
 [ ] Multi-Tenant Database Connectors: Dynamic UI onboarding for external MySQL, PostgreSQL, and Snowflake instances.
 
@@ -125,5 +127,9 @@ An enterprise-ready, AI-driven Business Intelligence Copilot that translates nat
 
 [ ] Headless Chromium PDF Pipeline: Backend Playwright/Puppeteer rendering service for pure vector PDF generation.
 
+---
+
 📄 License
 This project is licensed under the MIT License.
+
+---
